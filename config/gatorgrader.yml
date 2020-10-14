@@ -1,0 +1,11 @@
+---
+name: assignment-6-cola
+break: true
+indent: 4
+---
+
+writing/reflection.md:
+    ConfirmFileExists
+    proselint
+    CountFileParagraphs --count 3
+    MatchFileFragment --fragment "TODO" --count 0 --exact
